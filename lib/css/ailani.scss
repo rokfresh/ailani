@@ -1,0 +1,222 @@
+/* 
+ * ##################################
+ * phrag.lerOk // at the dock with robots
+ * 
+ * name: Ailani Orchards
+ * site: ailaniorchards.com
+ * 
+ * If I could foresee the future, I wouldn't blink...
+
+ * ##################################
+ */
+
+
+/* 
+ * ########################
+ * Color Palette
+ * #######################
+ * $rgba-primary-0: rgba(140,242,  0,1);    // Key Limey 
+ * $rgba-primary-1: rgba(187,249,103,1);
+ * $rgba-primary-2: rgba(148,250,  7,1);
+ * $rgba-primary-3: rgba(107,184,  0,1);
+ * $rgba-primary-4: rgba( 55, 95,  0,1);
+
+ * $rgba-secondary-1-0: rgba(  0,192,192,1);   // Sky High Bluey
+ * $rgba-secondary-1-1: rgba( 93,226,226,1);
+ * $rgba-secondary-1-2: rgba(  7,231,231,1);
+ * $rgba-secondary-1-3: rgba(  0,121,121,1);
+ * $rgba-secondary-1-4: rgba(  0, 63, 63,1);
+
+ * $rgba-secondary-2-0: rgba(255,231,  0,1);   // Canary Rod 
+ * $rgba-secondary-2-1: rgba(255,241,105,1);
+ * $rgba-secondary-2-2: rgba(255,231,  7,1);
+ * $rgba-secondary-2-3: rgba(201,182,  0,1);
+ * $rgba-secondary-2-4: rgba(104, 94,  0,1);
+
+ * $rgba-secondary-2-0: rgba(255,116,  0,1);   // Shades of Orange
+ * $rgba-secondary-2-1: rgba(255,173,105,1);
+ * $rgba-secondary-2-2: rgba(255,120,  7,1);
+ * $rgba-secondary-2-3: rgba(201, 91,  0,1);
+ * $rgba-secondary-2-4: rgba(104, 47,  0,1);
+
+ * $rgba-complement-0: rgba(231,  0,101,1);    // Shades of Pinky
+ * $rgba-complement-1: rgba(244,101,163,1);
+ * $rgba-complement-2: rgba(246,  7,112,1);
+ * $rgba-complement-3: rgba(170,  0, 75,1);
+ * $rgba-complement-4: rgba( 88,  0, 39,1); 
+
+ * ########################
+ */
+
+
+/*
+* ########################
+* Varibles //
+* ########################
+*/
+
+// Elements
+//*********************************
+// Colors
+$primaryColor: rgb(107, 184, 0); // Key Limey
+$secondaryColor: rgb(255, 231, 0); // Sandy Rod
+$compColor_A: rgb(0, 192, 192); // Sky High Bluey
+$compColor_B: rgb(255, 116, 0); // Corona
+$primaryColor_Alpha: rgba(107, 184, 0, 0.9); // Key limey - Transparent
+$secondaryColor_Alpha: rgba(255, 241, 105, 0.9); // Sandy Rod - Transparent
+$compColor_A_Alpha: rgba(0, 192, 192, 0.9); // Sky High Bluey - Transparent
+$compColor_B_Alpha: rgba(255, 116, 0, 0.9); //Corona - Transparent
+$whiteAlpha: rgba(255, 255, 255, 0.8);
+//Fonts
+@font-face {
+    font-family: "LobsterTwo";
+    src: url("../font/lobster-two/LobsterTwo-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LobsterTwo";
+    src: url("../font/lobster-two/LobsterTwo-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LobsterTwo";
+    src: url("../font/lobster-two/LobsterTwo-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+$lobsterTwo: "LobsterTwo";
+$raleway: "Raleway",
+sans-serif;
+//**********************************
+//Mixins
+//**********************************
+// vGradient
+//--------------
+@mixin lGradient ($fromColor,
+$toColor) {
+    background: $fromColor;
+    background-image: -webkit-linear-gradient(top, $fromColor, $toColor);
+    background-image: -moz-linear-gradient(top, $fromColor, $toColor);
+    background-image: -ms-linear-gradient(top, $fromColor, $toColor);
+    background-image: -o-linear-gradient(top, $fromColor, $toColor);
+    background-image: linear-gradient(top, $fromColor, $toColor);
+}
+
+//background-size
+//---------------
+@mixin background-size ($args) {
+    -webkit-background-size: $args;
+    -moz-background-size: $args;
+    -ms-background-size: $args;
+    background-size: $args;
+}
+
+//border raidus
+//---------------
+@mixin border-radius ($radius) {
+    -wwebkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+//transition
+//---------------
+@mixin transition ($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+//vertical center
+//---------------
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/*
+* #######################
+* // Styles //
+* #######################
+*/
+
+html,
+body {
+    height: 100% !important;
+}
+
+body {
+    background-color: $secondaryColor_Alpha;
+    font-familiy: $raleway;
+}
+
+.site-wrap {
+    min-height: 100% !important;
+    margin: 0 auto;
+}
+
+//Header
+.site-header {
+    width: 100%;
+}
+
+.jumbotron {
+    background: url('../../img/fruit-stand01.jpg') no-repeat center center;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+    @include background-size(cover);
+}
+
+.brand {
+    font-family: $lobsterTwo;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    padding: 7px 15px;
+    text-shadow: 1px 1px 1px $primaryColor, 3px 3px 2px $secondaryColor;
+}
+
+//Navbar
+.navbar-default {
+    border: solid 4px $compColor_A;
+    margin: 0 auto;
+    text-align: center;
+    .navbar-nav {
+        float: none;
+        margin: inherit;
+        > li {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+//Content
+.content-box {
+    background-color: white;
+    border: solid 4px $secondaryColor_Alpha;
+    padding: 10px 0;
+    margin: 5px auto;
+    @include border-radius(20px);
+}
+
+.img-box {
+    margin: 0 auto;
+    > img {
+        width: 320px;
+        height: 240px;
+        @include border-radius(10px);
+    }
+}

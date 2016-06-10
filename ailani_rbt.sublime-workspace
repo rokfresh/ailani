@@ -1,0 +1,580 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"jquery	(package.json)"
+			],
+			[
+				"aila",
+				"ailaniApp"
+			],
+			[
+				"ailan",
+				"ailaniApp"
+			],
+			[
+				"controller",
+				"controllerAs"
+			],
+			[
+				"templa",
+				"templateUrl"
+			],
+			[
+				"di",
+				"directive	(angular-route.min.js)"
+			],
+			[
+				"text",
+				"text/javascript"
+			],
+			[
+				"pri",
+				"primaryColorAlpha"
+			],
+			[
+				"second",
+				"secondaryColorAlpha"
+			],
+			[
+				"primaryC",
+				"primaryColorAlpha"
+			],
+			[
+				"secon",
+				"secondaryColorAlpha"
+			],
+			[
+				"prim",
+				"primaryColorAlpha"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"border-",
+				"border-radius	Compass"
+			],
+			[
+				"min",
+				"min-height: "
+			],
+			[
+				"seconda",
+				"secondaryColor"
+			],
+			[
+				"cont",
+				"contentBox	(index.html)"
+			],
+			[
+				"primar",
+				"primaryColorAlpha"
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"secondar",
+				"secondaryColorAlpha"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"background",
+				"background-color: "
+			],
+			[
+				"slidet",
+				"slidesToShow"
+			],
+			[
+				"slides",
+				"slidesToShow"
+			],
+			[
+				"slidesT",
+				"slidesToScroll"
+			],
+			[
+				"g",
+				"gallery"
+			],
+			[
+				"gall",
+				"gallery-nav"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "products.html",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Rokfresh/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/css/ailani.css",
+			"settings":
+			{
+				"buffer_size": 3264,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/css/ailani.scss",
+			"settings":
+			{
+				"buffer_size": 4712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/QM1Tb/_dev/_projects/ailaniorchards/_newSite/css/ailani.scss",
+			"settings":
+			{
+				"buffer_size": 8252,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"sft",
+				"SFTP: Sync Local -> Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Sync Local -> Remote…"
+			],
+			[
+				"sftp: l",
+				"SFTP: Sync Local -> Remote…"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/QM1Tb/_dev/_projects/ailani/app/styles/app.css",
+		"/Volumes/QM1Tb/_dev/_projects/ailaniorchards/_reboot/package.json",
+		"/Users/Rokfresh/_dev/_projects/ailaniorchards/_v2/templates/header.html",
+		"/Users/Rokfresh/_dev/_projects/ailaniorchards/_v2/templates/nav.html",
+		"/Users/Rokfresh/_dev/_projects/ailaniorchards/_v2/css/colorPalette.html",
+		"/Users/Rokfresh/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Rokfresh/_dev/_projects/ailaniorchards/_v2/lib/ng/angular-route.min.js",
+		"/Users/Rokfresh/_dev/_projects/ailaniorchards/_v2/lib/ng/angular.min.js",
+		"/Volumes/QM1Tb/_dev/_projects/ailaniorchards/ailaniFTP"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"args",
+			"//@",
+			" \n",
+			"ailani",
+			"stationary",
+			"drawing"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"value",
+			"stationery"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3685,
+								3685
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "products.html",
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Rokfresh/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/css/ailani.css",
+					"settings":
+					{
+						"buffer_size": 3264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/css/ailani.scss",
+					"settings":
+					{
+						"buffer_size": 4712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4704,
+								4704
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2685.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Volumes/QM1Tb/_dev/_projects/ailaniorchards/_newSite/css/ailani.scss",
+					"settings":
+					{
+						"buffer_size": 8252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4900,
+								4715
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2760.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/QM320/_dev/_projects/sammieRae.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true
+}

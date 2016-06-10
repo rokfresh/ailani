@@ -1,0 +1,163 @@
+/* 
+ * ##################################
+ * phrag.lerOk // at the dock with robots
+ * 
+ * name: Ailani Orchards
+ * site: ailaniorchards.com
+ * 
+ * If I could foresee the future, I wouldn't blink...
+
+ * ##################################
+ */
+/* 
+ * ########################
+ * Color Palette
+ * #######################
+ * $rgba-primary-0: rgba(140,242,  0,1);    // Key Limey 
+ * $rgba-primary-1: rgba(187,249,103,1);
+ * $rgba-primary-2: rgba(148,250,  7,1);
+ * $rgba-primary-3: rgba(107,184,  0,1);
+ * $rgba-primary-4: rgba( 55, 95,  0,1);
+
+ * $rgba-secondary-1-0: rgba(  0,192,192,1);   // Sky High Bluey
+ * $rgba-secondary-1-1: rgba( 93,226,226,1);
+ * $rgba-secondary-1-2: rgba(  7,231,231,1);
+ * $rgba-secondary-1-3: rgba(  0,121,121,1);
+ * $rgba-secondary-1-4: rgba(  0, 63, 63,1);
+
+ * $rgba-secondary-2-0: rgba(255,231,  0,1);   // Canary Rod 
+ * $rgba-secondary-2-1: rgba(255,241,105,1);
+ * $rgba-secondary-2-2: rgba(255,231,  7,1);
+ * $rgba-secondary-2-3: rgba(201,182,  0,1);
+ * $rgba-secondary-2-4: rgba(104, 94,  0,1);
+
+ * $rgba-secondary-2-0: rgba(255,116,  0,1);   // Shades of Orange
+ * $rgba-secondary-2-1: rgba(255,173,105,1);
+ * $rgba-secondary-2-2: rgba(255,120,  7,1);
+ * $rgba-secondary-2-3: rgba(201, 91,  0,1);
+ * $rgba-secondary-2-4: rgba(104, 47,  0,1);
+
+ * $rgba-complement-0: rgba(231,  0,101,1);    // Shades of Pinky
+ * $rgba-complement-1: rgba(244,101,163,1);
+ * $rgba-complement-2: rgba(246,  7,112,1);
+ * $rgba-complement-3: rgba(170,  0, 75,1);
+ * $rgba-complement-4: rgba( 88,  0, 39,1); 
+
+ * ########################
+ */
+/*
+* ########################
+* Varibles //
+* ########################
+*/
+@font-face {
+  font-family: "LobsterTwo";
+  src: url("../font/lobster-two/LobsterTwo-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LobsterTwo";
+  src: url("../font/lobster-two/LobsterTwo-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LobsterTwo";
+  src: url("../font/lobster-two/LobsterTwo-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+/*
+* #######################
+* // Styles //
+* #######################
+*/
+/* line 155, ailani.scss */
+html,
+body {
+  height: 100% !important;
+}
+
+/* line 160, ailani.scss */
+body {
+  background-color: rgba(255, 241, 105, 0.9);
+  font-familiy: "Raleway", sans-serif;
+}
+
+/* line 165, ailani.scss */
+.site-wrap {
+  min-height: 100% !important;
+  margin: 0 auto;
+}
+
+/* line 171, ailani.scss */
+.site-header {
+  width: 100%;
+}
+
+/* line 175, ailani.scss */
+.jumbotron {
+  background: url("../../img/fruit-stand01.jpg") no-repeat center center;
+  height: 450px;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+/* line 183, ailani.scss */
+.brand {
+  font-family: "LobsterTwo";
+  font-size: 1.7em;
+  letter-spacing: 0.1em;
+  padding: 7px 15px;
+  text-shadow: 1px 1px 1px #6bb800, 3px 3px 2px #ffe700;
+}
+
+/* line 192, ailani.scss */
+.navbar-default {
+  border: solid 4px #00c0c0;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 196, ailani.scss */
+.navbar-default .navbar-nav {
+  float: none;
+  margin: inherit;
+}
+/* line 199, ailani.scss */
+.navbar-default .navbar-nav > li {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 207, ailani.scss */
+.content-box {
+  background-color: white;
+  border: solid 4px rgba(255, 241, 105, 0.9);
+  padding: 10px 0;
+  margin: 5px auto;
+  -wwebkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 215, ailani.scss */
+.img-box {
+  margin: 0 auto;
+}
+/* line 217, ailani.scss */
+.img-box > img {
+  width: 320px;
+  height: 240px;
+  -wwebkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=ailani.css.map */
